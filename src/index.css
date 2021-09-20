@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.loginDiv{
+width: 50%;
+/* height: 300px; */
+display: flex;
+/* align-content: normal; */
+position: fixed;
+right: 5px;
+flex-direction: column;
+margin: 16px;
+}
+.loginDiv > *{
+  padding: 8px;
+}
+
+.transparentButton{
+  border-color: transparent ;
+  background-color: transparent ; 
+  color: #0d6efd;
+}
